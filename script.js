@@ -127,7 +127,7 @@ function opentab(tabName) {
     tabLink.classList.remove("active-link");
   }
 
-  for (const tabContent of tabContents) {
+  for (const tabContent of tabContents) { //js
     tabContent.classList.remove("active-tab");
   }
   event.currentTarget.classList.add("active-link");
