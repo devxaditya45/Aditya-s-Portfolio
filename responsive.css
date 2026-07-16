@@ -4,7 +4,7 @@ nav .fas {
   display: none;
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 640px) {   
   .header-container {
     padding: 0;
     height: auto;
@@ -224,6 +224,7 @@ nav .fas {
     font-size: 20px;
     margin-right: 5px;
   }
+  
 
   .contact-container .row {
     display: flex;
